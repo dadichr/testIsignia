@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #953e46;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+@media only screen and (max-width: 990px) {
+  .col-md-3 {
+    width: 50%;
+  }
+  .col-md-9 {
+    width: 50%;
+    text-align: right;
+  }
+  .secondary-border-outline {
+    height: 200px;
+  }
+}
+@media (min-width: 425px) {
+  .secondary-border-outline {
+    height: 200px !important;
+  }
+}

@@ -1,0 +1,16 @@
+<div class="col-md-12 d-flex justify-content-between border-bottom border-3">
+  <h3>Channels</h3>
+  <div class="view mt-2">
+    <a href="">Browse all channels</a>
+  </div>
+</div>
+
+<div class="list-group mt-1 pd-1">
+  <div class="row pt-2 pb-2 ps-3 pe-2">
+    <a href="#" class="channel-content col-md-6 pe-1 ps-0" *ngFor="let datas of data">
+      <div class="image-primary ">
+        <img src="{{ datas.download_url }}" />
+      </div>
+    </a>
+  </div>
+</div>

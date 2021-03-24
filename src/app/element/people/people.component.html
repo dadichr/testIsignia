@@ -1,0 +1,48 @@
+<div class="row">
+  <div class="col-md-8 d-flex justify-content-between">
+    <h3>People</h3>
+    <div class="view mt-2 me-3">
+      <a href="">View all</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="div-template-big position-relative" *ngFor="let bigs of big">
+        <img src="{{ bigs.download_url }}">
+        <div class="position-absolute bottom-0 primary-background-text">
+          <h4 class="  font-weight-bold mb-0 m-2">{{bigs.author}}</h4>
+          <h5 class="mt-0 m-2">User interface designer</h5>
+        </div>
+        <p class="view-primary position-absolute bottom-0 primary-background-text mr-2">187887 Views</p>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-6"  *ngFor="let datas of data">
+          <div class="div-template-small  position-relative primary-background-text">
+            <img src="{{datas.download_url}}">
+            <p class="font-weight-bold  position-absolute bottom-0  p-2">{{datas.author}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 ">
+     <div class=" div-template-small  position-relative primary-background-text mb-3" *ngFor="let images of image">
+       <img src="{{images.download_url}}">
+       <p class="font-weight-bold  position-absolute bottom-0  p-2">Michael Keliph</p>
+      </div>
+      <form>
+        <input class=" d-none" id="UploadVideo" type="file">
+        <label class="w-100" for="UploadVideo">
+          <div class="secondary-border-outline div-template-small d-flex upload">
+            <i class="fa fa-bullseye icon-small mt-auto mb-auto"></i>
+            <h5 class="m-auto ml-0">Show <br> Your work</h5>
+          </div>
+        </label>
+      </form>
+    </div>
+  </div>
+
+
+
+
+</div>

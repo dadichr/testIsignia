@@ -1,0 +1,29 @@
+img {
+  width: 100%;
+}
+.tema, .subtema {
+  bottom: 18%;
+  transform: translate(10px, 0px);
+}
+.subtema h4, .subtema h5 {
+  font-size: 12px;
+}
+p.view-primary {
+  right: 10px;
+}
+p.view {
+  right: 0;
+}
+.secondary-border-outline {
+  border: 2px solid #f5e3cf;
+  height: 137px;
+}
+i.fa.fa-upload.icon-small.mt-auto.mb-auto {
+  margin-left: 25px;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 50%;
+}
+h5.m-auto.ml-0 {
+  font-size: 14px;
+}

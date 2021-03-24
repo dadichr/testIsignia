@@ -1,0 +1,17 @@
+img {
+  width: 100%;
+}
+.list-group {
+  border-bottom: 1px solid white;
+  border-radius: 0;
+}
+.list-group-item-action {
+  background-color: transparent;
+}
+.list-group-item-action:hover {
+  border: 1px solid;
+}
+.list-group-item-action {
+  color: white;
+  border: none;
+}

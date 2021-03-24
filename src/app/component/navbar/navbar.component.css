@@ -1,0 +1,28 @@
+a.navbar-brand, h5 {
+  font-weight: bold;
+  color: white;
+}
+span, small {
+  font-weight: 300;
+  color: #f4e3cf;
+}
+form.my-2.my-lg-0 {
+  width: 535px;
+}
+button#button-addon2 {
+  position: relative;
+  right: 45px;
+}
+input {
+  background: #f4e3cf;
+  border-radius: 0;
+}
+button {
+  background: #f4e3cf;
+  border: none;
+  color:  #953e46;
+}
+i.fa.fa-user {
+  background:  #f4e3cf;
+  color:  #953e46;
+}

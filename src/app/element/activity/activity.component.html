@@ -1,0 +1,27 @@
+<div class="col-md-12 d-flex justify-content-between border-bottom border-3">
+  <h3>Activity</h3>
+  <div class="view mt-2">
+    <a href="">View timeline</a> /
+    <a href="">Filter activities</a>
+  </div>
+</div>
+<div class="list-group mt-1 pd-1" *ngFor="let datas of data">
+  <a href="#" class="list-group-item list-group-item-action flex-column align-items-start ms-0 ps-4">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="image-primary">
+          <img src="{{ datas.picture }}" />
+        </div>
+      </div>
+      <div class="col-md-8">
+        <div class="d-flex">
+          <h6 class="me-1 mt-0 mb-0">{{ datas.firstName }} </h6>
+          <small>commented</small>
+        </div>
+        <h6 class="mb-0">{{ datas.email }} </h6>
+        <small>2 minutes ago</small>
+      </div>
+    </div>
+  </a>
+
+</div>
